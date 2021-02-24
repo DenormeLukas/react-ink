@@ -1,16 +1,20 @@
 const React = require("react");
 const SelectInput = require('ink-select-input');
+const fetch = require('node-fetch');
 const { Text, Box } = require("ink");
+const food = require('./menu.json');
 
-const items = "test";
+const Choice = () => {
 
-const Choice = ({ items }) => {
+    console.log(food)
+    
+
+
     return (
 
-        <Box borderStyle="round" borderColor="red" width="42.5%">
-            <SelectInput items={items} onSelect={handleSelect} />
-        </Box>
-
+        // <Box borderStyle="round" borderColor="red" width="42.5%">
+            {/* <SelectInput onSelect={handleSelect} /> */}
+        // </Box>
 
     )
 }
