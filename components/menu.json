@@ -178,5 +178,11 @@
         "name": "Jupiler",
         "type": "Drank",
         "price": 2
+    },
+    {
+        "id": 31,
+        "name": "Water",
+        "type": "Drank",
+        "pice": 1.50
     }
 ]
