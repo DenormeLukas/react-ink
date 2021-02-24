@@ -2,7 +2,7 @@
 const React = require('react');
 const { Text } = require('ink');
 
-const App = ({ name = 'Mongolen! ', question = 'Hoe gaat het met je dikke kogit?' }) => (
+const App = ({ name = 'Mongolen! ', question = 'Hoe gaat het met jullie dikke koppen?' }) => (
 	<Text>
 		Hello, <Text color="green">{name}</Text>
 
