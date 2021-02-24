@@ -10,5 +10,59 @@
         "name": "Dürüm Kip",
         "type": "Dürüm",
         "pice": 6.00
+    },
+    {
+        "id": 3,
+        "name": "Dürüm Shoarma",
+        "type": "Dürüm",
+        "pice": 9.00
+    },
+    {
+        "id": 4,
+        "name": "Dürüm Mix",
+        "type": "Dürüm",
+        "pice": 7.00
+    },
+    {
+        "id": 5,
+        "name": "Dürüm met Frieten",
+        "type": "Dürüm",
+        "pice": 7.00
+    },
+    {
+        "id": 6,
+        "name": "Dürüm Mix met Frieten",
+        "type": "Dürüm",
+        "pice": 8.00
+    },
+    {
+        "id": 7,
+        "name": "Dürüm Hawai",
+        "type": "Dürüm",
+        "pice": 7.00
+    },
+    {
+        "id": 8,
+        "name": "Dürüm Vegetarisch",
+        "type": "Dürüm",
+        "pice": 5.00
+    },
+    {
+        "id": 9,
+        "name": "Dürüm met Kaas",
+        "type": "Dürüm",
+        "pice": 7.00
+    },
+    {
+        "id": 10,
+        "name": "Dürüm Tantuni",
+        "type": "Dürüm",
+        "pice": 9.00
+    },
+    {
+        "id": 11,
+        "name": "Dürüm Falafel",
+        "type": "Dürüm",
+        "pice": 6.00
     }
 ]
