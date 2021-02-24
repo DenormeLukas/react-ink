@@ -6,7 +6,6 @@ const { render } = require('ink');
 const meow = require('meow');
 
 
-
 const ui = importJsx('./ui');
 
 const cli = meow(`
