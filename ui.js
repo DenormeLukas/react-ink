@@ -13,9 +13,9 @@ const App = ({ name = 'Istanbul! ' }) => (
 
 
 	<Box borderStyle="round" borderColor="red" width="42.5%">
-		<SelectInput items="test" onSelect={handleSelect} />
+		<SelectInput items={items} onSelect={handleSelect} />
 	</Box>
-	
+
 );
 
 module.exports = App;
