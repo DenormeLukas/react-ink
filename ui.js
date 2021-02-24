@@ -1,23 +1,21 @@
 "use strict";
 const React = require("react");
+const importJsx = require("import-jsx");
 const { Text, Box } = require("ink");
-const Choice = require('components/choice.js');
+const Intro = importJsx('./components/Intro.js');
+//const Choice = importJsx('./components/Choice.js');
 
 
-const App = ({ name = 'Istanbul! ' }) => (
+const App = ({ name = 'Istanbul! ' }) => {
 
-	<>
-		<Box borderStyle="round" borderColor="red" width="42.5%">
-			<Text color="yellow">
-				{" "}Welkom,{" "}in kebabzaak {name}
-			</Text>
-		</Box>
+	return (
 
-		<Choice items={items} />
 
-	</>
+		<Intro name={name} />
 
-);
+	)
+};
+
 
 module.exports = App;
 

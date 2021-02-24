@@ -1,16 +1,19 @@
 const React = require("react");
-const SelectInput = require('ink-select-input');
 const { Text, Box } = require("ink");
 
-const Choice = (items) => {
+
+const Intro = ({ name }) => {
+
     return (
 
         <Box borderStyle="round" borderColor="red" width="42.5%">
-            <SelectInput items={items} onSelect={handleSelect} />
+            <Text color="yellow">
+                {" "}Welkom,{" "}in kebabzaak {name}
+            </Text>
         </Box>
 
-
     )
+
 }
 
-module.exports = Choice;
+module.exports = Intro;
