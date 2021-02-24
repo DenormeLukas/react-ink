@@ -23,6 +23,6 @@ const Choice = () => {
 
 }
 
-render(<Choice/>);
+// render(<Choice/>);
 
 module.exports = Choice;
