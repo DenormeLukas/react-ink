@@ -13,7 +13,7 @@ const App = ({ name = 'Istanbul! ' }) => {
 
 			<Intro name={name} />
 
-			<Choice items={items} />
+			<Choice />
 
 			<Outro name={name} />
 
