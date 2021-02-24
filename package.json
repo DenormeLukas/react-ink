@@ -1,5 +1,5 @@
 {
-	"name": "TEST",
+	"name": "react-ink",
 	"version": "0.0.0",
 	"license": "MIT",
 	"bin": "cli.js",
