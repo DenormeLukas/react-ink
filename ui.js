@@ -1,7 +1,7 @@
 "use strict";
 const React = require("react");
 const { Text, Box } = require("ink");
-import SelectInput from 'ink-select-input';
+const SelectInput = require('ink-select-input');
 
 
 const App = ({ name = 'Istanbul! ' }) => (
