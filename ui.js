@@ -1,13 +1,14 @@
-'use strict';
-const React = require('react');
-const { Text } = require('ink');
+"use strict";
+const React = require("react");
+const { Text, Box } = require("ink");
 
-const App = ({ name = 'allemaal! ', question = 'Hoe gaat het met jullie' }) => (
-	<Text>
-		Hallo, <Text color="green">{name}</Text>
 
-		<Text color="green">{question}</Text>
-	</Text>
+const App = ({ name = 'Istanbul! ' }) => (
+	<Box borderStyle="round" borderColor="red" width="45%">
+		<Text color="yellow">
+			Welkom,{" "} in kebabzaak {name}
+		</Text>
+	</Box>
 );
 
 module.exports = App;
