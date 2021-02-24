@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Dürüm Kebab",
+        "type": "Dürüm",
+        "price": 6.00
+    },
+    {
+        "id": 2,
+        "name": "Dürüm Kip",
+        "type": "Dürüm",
+        "pice": 6.00
+    }
+]
